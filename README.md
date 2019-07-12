@@ -1,0 +1,1 @@
+Start server - set DEBUG=app:* & npm start
