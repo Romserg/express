@@ -38,7 +38,7 @@ exports.show_edit_lead = function (req, res, next) {
   })
 };
 
-exports.show_edit_lead = function (req, res, next) {
+exports.edit_lead = function (req, res, next) {
   return models.Lead.update({
       email: req.body.lead_email
     }, {
