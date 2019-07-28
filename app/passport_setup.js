@@ -1,7 +1,6 @@
 let LocalStrategy = require('passport-local').Strategy;
 let bcrypt = require('bcrypt');
 let models = require('./models');
-console.log(models);
 
 const validPassword = function (user, password) {
   return bcrypt.compareSync(password, user.password);
